@@ -1,0 +1,20 @@
+This file lists the USB stack .c and .h files that this demo uses. You
+will not see the .c files listed below in the MPLAB project. These files below
+are compiled and are a part of USBStackArchive.a.
+
+Note that some .c and .h file that are user modifiable are contained in Firmware
+folder (the folder that contains this text file) are also processed while
+building the archive. These are not visible in the Project Explorer window of
+the MPLAB Project.
+
+The .h files needed by this demo are all contained in the .\Microchip\Include
+folder and .\ Folder.
+
+.c USB Stack files needed by the demo along with the MAL path
+--------------------------------------------------------------
+
+\Microchip Solutions\Microchip\USB\usb_device.c
+\Microchip Solutions\Microchip\USB\usb_hal_dspic33e.c or usb_hal_pic24E.c
+\Microchip Solutions\Microchip\USB\CDC Device Driver\usb_function_cdc.c
+.\usb_descriptors.c
+ 
